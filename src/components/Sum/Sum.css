@@ -1,0 +1,19 @@
+.sum{
+ background-color: lightgreen;
+ border-radius : 10px;
+ margin : 10px;
+ color: yellow;
+ padding: 10px;
+}
+
+.sum > input{
+    background-color: lightseagreen;
+}
+.sum > button {
+    background-color: red;
+    
+}
+.header{
+    color: blue;
+    margin-left: 40%;
+}

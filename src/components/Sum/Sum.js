@@ -1,4 +1,5 @@
 import React from 'react' ;
+import './Sum.css' ;
 
 export default class Sum extends React.Component {
     constructor(props){
@@ -15,15 +16,20 @@ export default class Sum extends React.Component {
   }
     render(){
         return(
+          
             <div className = "sum" >
                 <h1>Sum</h1>
                 <input  className = 'a' ref= {n => this.a = n} type = "number" />
                 <button onClick = {this.add}>+</button>
                 <input className = 'b' ref= {n => this.b = n} type = "number" />
-                <span>{this.state.sum}</span>
+                
+                <span>{this.state.sum}</span>               
            </div>
-
            
+      
+          
         );
+
+        
     };
 };
