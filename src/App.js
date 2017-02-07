@@ -4,15 +4,21 @@ import Sum from './components/Sum/Sum';
 import '../src/components/Sum/Sum.css' ;
 import Box from './components/Box/Box';
 import List from './components/List/List';
-
+import CreateStudent from './components/CreateStudent/CreateStudent';
+import CreateKlass from './components/CreateKlass/CreateKlass';
+import Registration from './components/Registration/Registration';
 class App extends Component {
   render() {
     return (
       <div className="app">
-        <h1 className = "header">School Managment Portal</h1>
-        <Sum />
-        <Box />
-        <List />
+        <h1 className = "header-main">School Managment Portal</h1>
+       
+       
+       
+        <CreateStudent  host="http://localhost:9000" create />
+         <CreateKlass host="http://localhost:9000" created={k => console.log(k)} />
+        <Registration />
+         
       </div>
     );
   }

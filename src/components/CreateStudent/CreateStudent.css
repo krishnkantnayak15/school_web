@@ -1,0 +1,22 @@
+.create-student{
+  background-color: #B3E5FC;
+  border-radius: 10px;
+  border: 2px solid #f39c12;
+  padding: 10px;
+  float: left;
+  width: 300px;
+  margin-left: 14%;
+  margin-top: 10%x;
+}
+
+.create-student .error{
+  background-color: #c0392b;
+  color: white;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.create-student h3{
+  display: inline-block;
+  border-bottom: 3px double black;
+}

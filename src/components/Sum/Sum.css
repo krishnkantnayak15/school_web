@@ -13,7 +13,16 @@
     background-color: red;
     
 }
-.header{
+.header-main{
     color: blue;
-    margin-left: 40%;
+    margin-left: 37%;
+    border: 1px solid;
+    padding: 10px;
+    background-color: lightgoldenrodyellow;
+    width: 465px;
+  
+}
+.header{
+    color:blueviolet;
+  
 }
